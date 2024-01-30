@@ -1,0 +1,7 @@
+table, th, td{
+    border: 0.5px solid rgb(131, 127, 127);
+    text-align: center;
+}
+.days{
+    text-align: left;
+}
