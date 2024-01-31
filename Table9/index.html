@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table9</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            padding: 2px 6px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">
+                    <div><strong>span</strong></div>
+                    <div>rows</div>
+                </td>
+                <td colspan="3">
+                    <div><strong>span</strong> columns</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div><strong>span</strong> columns</div>
+                </td>
+                <td rowspan="3">
+                    <div><strong>span</strong></div>
+                    <div>both</div>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <div><strong>span</strong></div>
+                    <div>rows</div>
+                </td>
+                <td>
+                    <div><strong>span</strong> columns</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div><strong>span</strong></div>
+                    <div>both</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
